@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, "Helvetica", sans-serif;
+    margin:0;
+    
+}
+h1 {
+   text-align: center; 
+}
+
+p {
+  text-align: justify;  
+}
+
+h1, p {
+    width: 350px;
+    margin:0;
+    padding: 25px;
+}
+
+div {
+    
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0 0;
+    background-color: #6C3;
+    padding: 10px;
+}
+
+#menu {
+    background-color:#FFF;
+    height:40px;
+}
+#coneix {
+    background-color:#6C3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#tot {
+    
+    background-color:#FFF;
+    height: 641px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#util {
+    width:50%;
+    float: left;
+    background-color:#333;
+    height: 500px;
+    color: #FFF;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#rapid {
+    width: 50%;
+    float: right;
+    background-color:#EEECEE;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#facil {
+    clear:both;
+    background-color:#6C3;
+    height: 550px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#arreu {
+    background-color:#EEECEE;
+    height: 643px;
+    background-image: url(img/img-hero-full-list.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+#canvia {
+    background-color:#333;
+    height: 200px;
+    text-align: center; 
+}
+
+img {
+
+}
+
+#menu img {
+    display: inline;
+}
+#canvia img{
+    margin: 25px;
+}
+
+ul {
+    display: inline-block;
+}
+
+#tornar {
+    font-family: Helvetica;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-size:125px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:#EEECEE;
+}
+
+a:visited {
+    color:#dbf6d5;
+}
