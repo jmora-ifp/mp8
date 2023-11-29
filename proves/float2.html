@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float2</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+        div {
+            background-color: skyblue;
+            margin: 0;
+            padding: 0.5%;    
+        }
+        .cap {
+            background-color: blue;
+            padding: 2%;
+            }
+        .menu {
+            float: left;
+            width: 24%;}
+        .contingut{
+            background-color:;
+            float: left;
+            width: 49%;
+            overflow: scroll;
+            height: 840px;}
+            
+        .lateral{
+            float: right;
+            width: 24%;
+        }
+        .peu {
+            clear: left;
+            background-color: blue;
+            margin-bottom: 0;
+        }
+        
+        *, *:after, *:before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body div {
+
+        }
+
+        div > .classe {
+
+        }
+        .primernivell {
+            background: red;
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .navegacio {
+            background: yellow;
+            width: 60%;
+            margin: auto;
+        }
+
+        .primernivell:hover {
+            background: tomato;
+        }
+
+        .primernivell:hover > .secundari{
+            display: block;
+        }
+
+        .secundari {
+            display: block;
+            background: green;
+            position: absolute;
+            left:0;
+            top: 2.5rem;
+            display: none;
+            
+        }
+        .segonnivell {
+            background: brown;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cap">
+        <h1>El meu blog</h1>
+        <ul class="navegacio">
+            <li class="primernivell">Opció 1
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 2
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 3
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 4
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 5
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+       </ul>
+    </div>
+    <div class="menu">
+        <h2>Menú</h2>
+        <ul>
+            <li><a href="#e1">Entrada 1</a></li>
+            <li><a href="#e2">Entrada 2</a></li>
+            <li><a href="#e3">Entrada 3</a></li>
+            <li><a href="#e4">Entrada 4</a></li>
+            <li><a href="#e5">Entrada 5</a></li>
+            <li><a href="#e6">Entrada 6</a></li>
+            <li><a href="#e7">Entrada 7</a></li>
+        </ul>
+    </div>
+    <div class="contingut">
+        <h2>Mur</h2>
+        <h3 id="e1">Post 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis, perspiciatis incidunt reiciendis repudiandae quidem, quaerat eum id quasi labore veritatis modi sunt exercitationem commodi placeat libero asperiores cum deserunt!</p>
+        <h3 id="e2">Post 2</h3>
+        <p>Nesciunt, temporibus aspernatur. Accusamus exercitationem modi provident, sunt, dolor blanditiis ipsum ipsa, delectus ex enim culpa voluptatem! Accusamus voluptates quidem amet voluptatem expedita et eius repellat eligendi, a possimus! Non?</p>
+        <h3 id="e3">Post3</h3>
+        <p>Architecto numquam eum quis cupiditate, nesciunt tenetur neque molestiae maiores aut ipsam? Vero, illum nam blanditiis eaque necessitatibus rem minima aliquid consequuntur nihil in fuga totam delectus maiores harum labore.</p>
+        <h3 id="e4">Post4</h3>
+        <p>Dolorem repellat doloribus natus modi pariatur quod, amet consectetur, repellendus est a neque? Fugiat quas harum labore quod officia nemo nihil, asperiores ipsam voluptatem alias temporibus at neque laborum quia.</p>
+        <h3 id="e5">Post5</h3>
+        <p>Debitis, odio numquam quidem quos nulla neque. Eum labore sunt cum illum quibusdam molestias sed. Nesciunt ipsa, dolorum voluptate quasi accusantium, natus eveniet mollitia sed, placeat esse molestiae iusto nostrum.</p>
+        <h3 id="e6">Post6</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3 id="e7">Post7</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post8</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post9</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post10</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post11</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post12</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+        <h3>Post13</h3>
+        <p>Aspernatur sunt qui eius ullam aliquam commodi quas, repellendus ratione! Corrupti vel corporis odit similique nihil nisi at unde ipsam, dignissimos quidem eum non praesentium, qui saepe exercitationem odio perspiciatis.</p>
+    </div>
+    <div class="lateral">
+        <h2>Lateral</h2>
+    </div>
+    <div class="peu">
+        <p>© Jordi</p></div>
+</body>
+</html>

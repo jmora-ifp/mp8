@@ -1,0 +1,35 @@
+.cap {
+    width: 500px;
+    height: 600px;
+    background-color:bisque;
+    border-radius: 200px 200px 350px 350px;
+}
+
+
+.pel {
+   height: 200px;
+   background-color: black;
+   border-radius: 150px 150px 0px 0px;
+}
+
+
+
+ .celles {
+    height: 50px;
+    
+ }
+
+ .celles .cella {
+    background-color: brown;
+    width: 200px;
+    height: 30px;
+    border-radius: 100px 100px 0 0 ;
+    float: left;
+    margin: 10px;
+ }
+
+ .ull {
+    height: 80px;
+    background-color: orange;
+
+ }
